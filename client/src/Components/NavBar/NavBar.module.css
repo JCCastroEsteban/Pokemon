@@ -1,0 +1,72 @@
+
+.NavBar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 10px 0;
+}
+.Alphabetical {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:#d6a0fa ;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.Alphabetical:hover {
+    border-color: #007bff;
+    background-color: #d9c0fb;
+}
+
+.Attack {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #d6a0fa;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Attack:hover {
+    border-color: #007bff;
+    background-color: #d9c0fb;
+}
+.Origin {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #d6a0fa;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Origin:hover {
+    border-color: #007bff;
+    background-color: #d9c0fb;
+}
+.Types {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #d6a0fa;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Types:hover {
+    border-color: #007bff;
+    background-color:#d9c0fb;
+}
