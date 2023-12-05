@@ -1,12 +1,14 @@
-const { Router } = require('express');
-// Importar todos los routers;
-// Ejemplo: const authRouter = require('./auth.js');
+const express = require('express');
+const router = express.Router();
 
 
-const router = Router();
+const getPokemonsRoute = require('./pokemon/pokemon.router');
+const postPokemonRoute = require('./pokemon/postPokemonRoute');
+const getTypeRouter = require('./type/type.router');
 
-// Configurar los routers
-// Ejemplo: router.use('/auth', authRouter);
+router.use('/pokemon', getPokemonsRoute)
+router.use('/pokemon/:id', getPokemonsRoute)
+router.use('/pokemon/', postPokemonRoute)
+router.use('/type', getTypeRouter)
 
-
-module.exports = router;
+module.exports = router
